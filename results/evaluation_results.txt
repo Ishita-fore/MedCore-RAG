@@ -1,0 +1,213 @@
+======================================================================
+MEDCORE RAG EVALUATION
+======================================================================
+
+TEST 1
+----------------------------------------------------------------------
+QUESTION: What is the maximum billable quantity for a General Ward Bed?
+ANSWER: The maximum billable quantity for a General Ward Bed is 30 days.
+SOURCES:
+  - Finance_Billing | 06_Billing_Rates_and_Limits.md
+  - Finance_Billing | 01_Hospital_Billing_Policy.md
+
+TEST 2
+----------------------------------------------------------------------
+QUESTION: What is the standard rate for a private room?
+ANSWER: ₹6,500 per day.
+SOURCES:
+  - Finance_Billing | 06_Billing_Rates_and_Limits.md
+  - Finance_Billing | 01_Hospital_Billing_Policy.md
+  - Finance_Billing | 05_Employee_Reimbursement_Policy.md
+
+TEST 3
+----------------------------------------------------------------------
+QUESTION: What is the patient admission procedure?
+ANSWER: **Patient admission procedure**
+
+1. **Initiate the request**
+   * Log the admission in the approved hospital system.
+   * Attach the correct patient encounter and the intended inpatient pathway (unit, service, or specialty).
+   * Confirm the patient’s identity and the encounter type before adding any additional operational data.
+
+2. **Verify and reconcile data**
+   * Check that the patient record and encounter are accurate and consistent across all departments.
+   * If any discrepancy appears, keep the item open, record the issue factually, and route the conflict to the authorized reconciliation function.  
+   * Do not create duplicate or provisional records to bypass unresolved differences.
+
+3. **Registration interface**
+   * Use the registration process to secure the authoritative administrative information.
+   * Follow the search‑before‑create rule – search for an existing patient record, review all plausible matches, and use the established identity.  
+   * If uncertainty remains, stop the create process and have the case routed for review.
+
+4. **Assign ownership and document status**
+   * In the workflow, assign an accountable owner for the next action (e.g., bed assignment, transport, or clinical assessment).
+   * Record the request, the current state, and the next operational step in the approved record.  
+   * The record must allow any subsequent user to understand the status without revisiting old messages.
+
+5. **Coordinate resources and destination**
+   * Use the approved capacity or allocation process to confirm bed, room, equipment, and receiving team availability.
+   * Treat previously discussed destinations as provisional; update the operational status whenever a change occurs and communicate the change to all affected parties.
+
+6. **Escalation if required**
+   * If the intake cannot proceed because of unresolved dependencies, keep the request open and use the designated escalation route.
+   * Do not mark the stage as complete until all dependencies are resolved.
+
+7. **Completion check**
+   * Confirm that the patient and encounter are correctly matched.
+   * Verify that the admission pathway is chosen and visible, that the next owner and action are identified, and that any outstanding dependencies have an assigned owner or are formally closed.
+
+8. **Hand‑off to receiving team**
+   * Once the request, registration status, and operational owner are all in place, hand the admission record to the receiving clinical unit, ensuring the unit knows the next operational action and any remaining dependencies.  
+
+By following these steps, the admission process is kept transparent, avoids duplication, and ensures that all clinical and operational requirements are satisfied before the patient moves into the inpatient environment.
+SOURCES:
+  - Clinical_Operations | 01_Patient_Admission_SOP.md
+  - IT_Security | 03 Hospital Management System Guide.md
+  - Patient_Services | 01_Patient_Registration_Policy.md
+  - Clinical_Operations | 02_Patient_Discharge_SOP.md
+
+TEST 4
+----------------------------------------------------------------------
+QUESTION: What is the employee leave policy?
+ANSWER: **Employee Leave Policy – MedCore Hospitals & Healthcare Services Pvt. Ltd.**
+
+1. **Leave Types and Entitlements**  
+   | Category | Annual Entitlement | Primary Use | Carry‑Forward |
+   |----------|--------------------|-------------|---------------|
+   | **Earned / Privilege Leave (EL)** | 18 days | Planned personal or family absences | Up to 12 days |
+   | **Casual Leave (CL)** | 8 days | Short, unforeseen personal matters | Not carried forward |
+   | **Sick Leave (SL)** | 10 days | Illness, recovery or medical advice | Not carried forward |
+   | **Compassionate Leave** | Up to 3 working days per event | Death or critical bereavement involving an immediate family member | Not applicable |
+   | **Leave Without Pay (LWP)** | No fixed entitlement | When paid leave is unavailable or not applicable | Not applicable |
+
+2. **How to Request Leave**  
+   1. **Check** your roster, available balance, and any critical‑period instructions.  
+   2. **Submit** the request in the HR system with dates and leave category before the absence whenever possible.  
+   3. **Review** – Your reporting manager checks staffing, operational needs, eligibility, and overlapping leave.  
+   4. **Approve / Return** – The manager approves, rejects, or requests clarification through the system.  
+   5. **Record** – HR or the system updates the leave balance and attendance status after a decision is finalized.  
+   6. **Handover** – The employee shares required status, deadlines, and contacts if a leave is extended.
+
+3. **When Leave Can’t Be Planned**  
+   - **Sudden illness**: Notify the manager early, submit a Sick Leave request, and provide required evidence.  
+   - **Unplanned emergencies**: Follow the same notification and documentation procedure as scheduled leave.
+
+4. **Managing Roster and Shift Changes**  
+   - Shift changes must be approved by the roster owner before being treated as official.  
+   - Managers may initiate changes but must communicate and record them in the approved roster.   
+   - Direct shift swaps without approval are prohibited if they affect staffing, safety, or compliance.  
+   - Operational changes (e.g., emergencies) may be made immediately by authorized managers, with attendance records updated afterward.
+
+5. **Attendance vs. Leave**  
+   - Attendance records reflect whether an employee was scheduled and present, absent, or covered by an authorized status.  
+   - Leave records describe periods during which the employee is exempted from scheduled work.  
+   - A leave request does not automatically change an attendance entry; approvals occur independently.
+
+6. **Handling Discrepancies**  
+   - If a leave balance appears incorrect, raise the issue with HR, providing dates and prior approvals.  
+   - For leave requests rejected or extended beyond approved dates, discuss operational reasons with the manager or contact HR if the decision seems inconsistent with policy.
+
+7. **Document Control**  
+   - Policy Owner: Head – HR & Administration.  
+   - ID: HR‑LA‑002, Version 1.0, Effective 1 April 2026, reviewed annually or on material change.
+
+This policy sets the framework for leave administration, ensuring consistency across the organization while allowing clinical and operational teams to use rosters that suit their service requirements.
+SOURCES:
+  - HR_Administration | 02_Leave_and_Attendance_Policy.md
+
+TEST 5
+----------------------------------------------------------------------
+QUESTION: What are the requirements for patient consent?
+ANSWER: Patient consent must satisfy the following requirements:
+
+| Element | Requirement |
+|---------|-------------|
+| **Defined purpose** | Consent is needed for all clinical procedures, diagnostics, treatments, information releases, photography, programs, and any activity requiring documented authorization. |
+| **Core principles** | • **Informed**: Provide material information in a clear, understandable format.<br>• **Voluntary**: No coercion or inappropriate pressure.<br>• **Specific**: Authorization applies only to the identified activity or purpose.<br>• **Documented**: Capture the decision in an approved record (paper or electronic).<br>• **Reviewable**: Re‑evaluate consent when circumstances change or withdrawal occurs. |
+| **Information disclosure** | Staff must give relevant details, allow questions, confirm understanding, and record that the patient has been fully informed. |
+| **Verified identity** | Confirm the patient’s identity (or authorized decision‑maker) using approved identifiers before obtaining consent. |
+| **Consent record minimum contents** | • Patient identifier<br>• Activity or purpose<br>• Decision status (yes, no, withdrawal)<br>• Date and time<br>• Consent provider (who gave consent)<br>• Responsible staff (if required)<br>• Relevant notes<br>• Authentication (signature, electronic witness, or clinician confirmation) |
+| **Pre‑activity verification** | Before the activity starts, the team verifies that the correct, active consent is in place, matches the planned purpose, and hasn’t been withdrawn or superseded. |
+| **Special circumstances** | • **Authorized decision‑makers**: If the patient cannot provide consent, verify the proper authority per MedCore workflow.<br>• **Language/communication support**: Use approved language or interpretation services; informal interpretation is not acceptable.<br>• **Urgent/emergency**: Follow the emergency procedure, document the situation, actions taken, and any subsequent communication.<br>• **Withdrawal**: Record promptly and inform the responsible team. |
+| **Digital/remote consent** | Only through approved systems that capture user identity, date/time, and the exact content or version presented. |
+| **Documentation style** | Records must be factual, concise, and contemporaneous; part of the controlled patient record. |
+| **Roles and responsibilities** | • Treating clinician – explain procedure‑specific information, answer scoped questions, document decision.<br>• Nursing/clinical staff – verify consent status before activities and flag gaps.<br>• Patient services – capture administrative consents, verify identity.<br>• Medical records – maintain integrity, retrieval, retention, and corrections.<br>• Legal & Compliance – interpret policy, manage escalations, conduct reviews. |
+
+These elements together define the complete consent process, ensuring legal, ethical, and clinical safeguards for patient autonomy and data handling.
+SOURCES:
+  - Legal_Compliance | 01_Patient_Consent_Policy_Natural_Layout.md
+
+TEST 6
+----------------------------------------------------------------------
+QUESTION: What is the procurement approval process?
+ANSWER: **Procurement approval steps**
+
+1. **Request initiation** –  
+   - The requester submits a purchase request detailing the business need, specifications, quantity, delivery date, and budget/cost‑centre.  
+   - Procurement reviews the request, checks for an existing contract or approved supplier, and triggers any required technical, clinical, security, or legal reviews.
+
+2. **Sourcing & quotation** –  
+   - For material purchases, procurement obtains competitive quotations or proposals.  
+   - If competition is not feasible, the requester documents the rationale for the chosen supplier and obtains the necessary exception approval.
+
+3. **Approval routing (value‑based)** –  
+   - **Up to ₹50,000** – Department manager (budget confirmation and approved purchasing route required).  
+   - **₹50,001–₹2,50,000** – Department head or budget owner (procurement review where applicable).  
+   - **₹2,50,001–₹10,00,000** – Functional head plus Finance approval (competitive sourcing or an approved exception).  
+   - **Above ₹10,00,000** – Executive or delegated authority plus Finance approval (procurement‑led sourcing and contract review required).  
+   - The applicable delegation‑of‑authority schedule takes precedence if it specifies a higher threshold or different route.
+
+4. **Contract/PO issuance** –  
+   - A purchase order or approved contract, detailing supplier, scope, price, delivery/service terms, and conditions, must be issued before any goods or services are supplied.  
+   - Verbal commitments are not sufficient.
+
+5. **Emergency or exception handling** –  
+   - If delay could materially affect patient care, safety, essential operations, or critical infrastructure, an emergency purchase may be made after documenting the reason, the chosen supplier, the value, and approvals.  
+   - Post‑purchase regularization must be completed within the agreed timeline.
+
+6. **Change, renewal or amendment** –  
+   - Any significant change in value, scope, term, or supplier triggers a reassessment and new approval.  
+   - Renewals are not automatically approved; they require the same level of scrutiny as the original purchase.
+
+7. **Vendor onboarding (if not already approved)** –  
+   - Procurement checks for existing approved vendors, completes risk and compliance checks, reviews the vendor package, and activates the supplier record.  
+   - A contract or PO is issued prior to engagement unless an exception applies.
+
+8. **Record‑keeping and audit** –  
+   - All approval records, sourcing evidence, POs/contracts, receipt/acceptance evidence, and amendments are retained in approved systems and must be auditable.
+
+9. **Policy review and continuous improvement** –  
+   - Procurement and Finance review the policy annually and after any material change in delegation thresholds, workflow, or financial controls.
+
+This process ensures that every purchase follows a structured approval path, maintains proper documentation, and meets regulatory and fiscal controls.
+SOURCES:
+  - Procurement | 03 Purchase Approval Policy.md
+  - Procurement | 02 Vendor Onboarding SOP.md
+  - Procurement | 01 Procurement Policy.md
+
+TEST 7
+----------------------------------------------------------------------
+QUESTION: What is the IT incident response procedure?
+ANSWER: **IT Incident Response Procedure**
+
+1. **Detection & Reporting** – Identify a potential event, create an incident record, and report it promptly.  
+2. **Triage** – Assess the event’s scope: affected systems, data, users, and initial severity.  
+3. **Containment** – Limit further impact while preserving evidence.  
+4. **Investigation** – Determine timeline, indicators, affected assets, and likely cause.  
+5. **Eradication** – Remove malicious artifacts or unauthorized access and fix exploited weaknesses.  
+6. **Recovery** – Safely restore services, monitor for recurrence, and confirm controls are functioning.  
+7. **Closure & Lessons Learned** – Document findings, actions, evidence, and any follow‑up—then review for trends and improvements.
+
+This lifecycle is supported by:
+- **Severity classification** (Critical, High, Medium, Low) guiding response intensity.  
+- **Roles and responsibilities** for users, service desk, incident lead, system owners, Legal & Compliance, and communications teams.  
+- **Containment & recovery actions** such as disabling accounts, isolating endpoints, blocking indicators, and restoring known‑good configurations.  
+- **Evidence handling, privacy assessment, and communication protocols** ensuring proper preservation, legal compliance, and controlled information sharing.  
+
+The process concludes with a post‑incident review that documents root causes, control gaps, effectiveness, and corrective actions with owners and target dates.
+SOURCES:
+  - IT_Security | 04 IT Incident Response SOP.md
+
+======================================================================
+EVALUATION COMPLETE
+======================================================================
