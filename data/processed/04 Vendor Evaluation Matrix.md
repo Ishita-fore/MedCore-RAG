@@ -1,0 +1,32 @@
+| Vendor ID   | Vendor Name                  | Category            |   Quality / Technical Fit (25) |   Commercial Value (20) |   Delivery / SLA (15) |   Compliance (15) |   Financial / Business Stability (10) |   Security / Privacy (10) |   Service / Support (5) |   Total / 100 | Risk Tier   | Recommendation Basis                                                      | Review Date   |
+|-------------|------------------------------|---------------------|--------------------------------|-------------------------|-----------------------|-------------------|---------------------------------------|---------------------------|-------------------------|---------------|-------------|---------------------------------------------------------------------------|---------------|
+| V-001       | Apex Medical Supplies        | Medical Consumables |                             23 |                      17 |                    14 |                14 |                                     9 |                         9 |                       5 |            91 | Low         | Meets clinical specification; consistent delivery; documentation complete | 30-Sep-2026   |
+| V-002       | NorthStar Facility Services  | Facilities          |                             21 |                      18 |                    13 |                13 |                                     8 |                         7 |                       5 |            85 | Medium      | Strong commercial position; service controls require ongoing review       | 30-Sep-2026   |
+| V-003       | CloudBridge Systems          | IT Services         |                             24 |                      16 |                    14 |                14 |                                     9 |                        10 |                       5 |            92 | Low         | Strong technical and security response; contract controls documented      | 31-Oct-2026   |
+| V-004       | PrimeCare Diagnostics        | Laboratory Services |                             24 |                      15 |                    13 |                15 |                                     8 |                         9 |                       5 |            89 | Low         | Strong quality/compliance profile; pricing above median                   | 31-Oct-2026   |
+| V-005       | Metro Office Solutions       | General Supplies    |                             19 |                      19 |                    12 |                12 |                                     8 |                         6 |                       4 |            80 | Medium      | Competitive price; moderate service and compliance evidence               | 30-Sep-2026   |
+| V-006       | SecureServe Data Destruction | Specialist Service  |                             22 |                      15 |                    13 |                15 |                                     8 |                        10 |                       5 |            88 | Low         | Strong security and chain-of-custody controls                             | 30-Nov-2026   |
+
+| Criterion                      |   Weight | Scoring guidance                                                                                |
+|--------------------------------|----------|-------------------------------------------------------------------------------------------------|
+| Quality / Technical Fit        |       25 | Fit to specification, technical capability, quality evidence and certifications where relevant. |
+| Commercial Value               |       20 | Price, total cost, commercial terms and value for money.                                        |
+| Delivery / SLA                 |       15 | Lead time, service levels, continuity and fulfilment record.                                    |
+| Compliance                     |       15 | Required declarations, regulatory suitability, contractual compliance and documentation.        |
+| Financial / Business Stability |       10 | Business continuity indicators, financial capacity and dependency risk.                         |
+| Security / Privacy             |       10 | Security controls, privacy safeguards and data-handling practices where relevant.               |
+| Service / Support              |        5 | Responsiveness, account management and after-sales support.                                     |
+
+|   Step | Instruction                                                                                                              |
+|--------|--------------------------------------------------------------------------------------------------------------------------|
+|      1 | Confirm the evaluation criteria and weights before scoring.                                                              |
+|      2 | Score each criterion using evidence from quotations, demonstrations, references, due diligence or contract documents.    |
+|      3 | Record material assumptions and gaps in the basis column.                                                                |
+|      4 | Assess risk separately from the numerical score; a high score does not override a critical compliance or security issue. |
+|      5 | Retain the completed matrix with the sourcing and approval record.                                                       |
+
+| Tier   | Typical interpretation                                                                    | Action                                                                 |
+|--------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| Low    | No material unresolved risk identified.                                                   | Normal supplier management.                                            |
+| Medium | Some control, service or dependency concerns require monitoring.                          | Document mitigation and review periodically.                           |
+| High   | Material unresolved risk affecting compliance, security, continuity or business exposure. | Escalate; approval may require risk acceptance or additional controls. |
